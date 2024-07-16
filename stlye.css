@@ -1,0 +1,32 @@
+button {
+  width: 100px;
+  height: 40px;
+}
+
+.bt1 > button {
+  background-color: blueviolet;
+  border: none;
+}
+
+.bt2 > button {
+  background-color: aqua;
+  border: none;
+}
+
+.bt3 > button {
+  background-color: rgb(184, 109, 11);
+  border: none;
+}
+
+.container {
+  background-color: rgba(17, 133, 179, 0.658);
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.bt1 h1::first-letter,
+.bt2 h1::first-letter,
+.bt3 h1::first-letter {
+  font-size: 14px;
+}
